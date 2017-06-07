@@ -1,0 +1,2 @@
+# funny
+some funny algorithm
