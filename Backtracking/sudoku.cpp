@@ -86,9 +86,9 @@ bool sudoku(int board[N][N])
             {
                 return true;
             }
+            
+            board[row][col]=UNDEFINED;        //backtracking
         }
-
-        board[row][col]=UNDEFINED;        //backtrack
     }
 
     return false;
